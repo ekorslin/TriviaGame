@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Totally Trivia Game!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+        <h1>Totally Trivia Game!</h1>
+    <div id="start-screen">
+        <button id="start">Start</button>
+    </div>
+    <div id="questions">
+    <h3>Time Remaining: <span id="clock"></span> Seconds</h3>
+    <form>
+        <h4>1:  Michael Jordan is the record-holder for most single-season MVP awards throughout the history of the NBA</h4>
+            <input type="radio" name="jordan" class="jordan" value="true"> True<br>
+            <input type="radio" name="jordan" class="jordan" value="false"> False
+        <h4>2:  Kris Bryant was the number one overall pick in the 2013 MLB Draft</h4>
+            <input type="radio" name="bryant" value="true"> True<br>
+            <input type="radio" name="bryant" value="false"> False
+        <h4>3:  Brett Favre was selected by the Green Bay Packers in Round 3 of the 1991 NFL Draft</h4>
+            <input type="radio" name="favre" value="true"> True<br>
+            <input type="radio" name="favre" value="false"> False
+        <h4>4:  Super Mario Bros. was first released in Japan in 1985 for the Famicon gaming system.</h4>
+            <input type="radio" name="mario" value="true"> True<br>
+            <input type="radio" name="mario" value="false"> False
+        <h4>5:  Mario and Luigi are brothers.</h4>
+            <input type="radio" name="luigi" value="true"> True<br>
+            <input type="radio" name="luigi" value="false"> False
+      </form>
+    </div> 
+    <div id="score-board"></div>
+</body>
+</html>
